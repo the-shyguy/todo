@@ -9,6 +9,7 @@ const TodoItem = ({ item, done, id }) => {
   const handleCheck = () => {
     dispatch(setCheck(id));
   };
+
   return (
     <div className="todo_item">
       <input

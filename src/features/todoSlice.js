@@ -13,7 +13,7 @@ const todoSlice = createSlice({
       state.todoList.push(action.payload);
     },
     setCheck: (state, action) => {
-      state.todoList.map((item) => {
+      state.todoList.forEach((item) => {
         if (action.payload === item.id) {
           if (item.done === true) {
             item.done = false;

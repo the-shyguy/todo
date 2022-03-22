@@ -15,6 +15,7 @@ const Input = () => {
         id: Date.now(),
       })
     );
+    setInput('');
   };
   return (
     <div className="input_box">

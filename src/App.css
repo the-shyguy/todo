@@ -35,6 +35,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background: #e2e8f0;
 }
 
 .warning_head {

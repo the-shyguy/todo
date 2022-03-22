@@ -8,8 +8,6 @@ const Input = () => {
   const dispatch = useDispatch();
 
   const addTodo = () => {
-    console.log(`Adding ${input}`);
-
     dispatch(
       saveTodo({
         item: input,
